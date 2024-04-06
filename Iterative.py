@@ -24,7 +24,7 @@ def construct_rocket(rocket_sections, target_length):
 
     print(f"{sum(sections_count.values())} rocket sections minimum")
 
-input_line = "1 7 21 37 73"
+input_line = "1 7 21 37 72"
 target_length = 2000
 
 rocket_sections = list(map(int, input_line.split()))
